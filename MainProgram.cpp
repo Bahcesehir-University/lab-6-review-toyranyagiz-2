@@ -70,7 +70,7 @@ public:
     // Print: Student [name] destroyed"
     ~Student() {
         // YOUR CODE HERE
-        cout << "Student"<< name << "destroyed"<< endl ;
+        cout << "Student " << name << " destroyed" << endl ;
         
     }
 
@@ -150,7 +150,7 @@ public:
     // Example: "Student(Ali, ID: 101, GPA: 3.5)"
     friend ostream& operator<<(ostream& os, const Student& s) {
         // YOUR CODE HERE
-        os << "Student("<<s.name<< ", ID:" << s.id << ", GPA: "<<s.gpa<<")";
+        os << "Student(" << s.name << ", ID: " << s.id << ", GPA: "<< s.gpa<< ")";
         return os;
     }
 };
