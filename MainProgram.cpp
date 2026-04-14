@@ -163,7 +163,7 @@ public:
 // Version 1: Takes two Student references, returns the one with higher GPA
 Student findBestStudent(const Student& a, const Student& b) {
     // YOUR CODE HERE
-    if(a < b) {
+    if(b < a) {
     return a;
     }
     return b;
